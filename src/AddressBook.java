@@ -22,6 +22,10 @@ public class AddressBook {
         book.remove(buddy);
     }
 
+    public void removeAllBuddies(){
+        book.clear();
+    }
+
     public static void main(String[] args){
         BuddyInfo buddy = new BuddyInfo("Bob", "10 Hollywood Avenue", "1234567890");
         AddressBook addressBook = new AddressBook();
